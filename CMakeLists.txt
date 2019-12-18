@@ -40,7 +40,7 @@ if(UNIX)
     set(HAVE_UNIX ON)
 endif()
 
-option(HAVE_EXAMPLES "Enable examples (default: disabled)" OFF)
+option(HAVE_EXAMPLES "Enable examples (default: disabled)" ON)
 
 option(HAVE_CLIENT "Enable client APIs (default: enabled)" ON)
 if(HAVE_CLIENT)
